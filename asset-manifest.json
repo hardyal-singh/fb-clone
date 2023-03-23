@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fb-clone/static/css/main.0bb3fd01.css",
+    "main.js": "/fb-clone/static/js/main.d2420057.js",
+    "static/js/787.7379419f.chunk.js": "/fb-clone/static/js/787.7379419f.chunk.js",
+    "static/media/story1.jpg": "/fb-clone/static/media/story1.7223a2a58d03eed974d5.jpg",
+    "static/media/story3.jpg": "/fb-clone/static/media/story3.586fbc34fca5b35b3485.jpg",
+    "static/media/story2.jpg": "/fb-clone/static/media/story2.11aa8827d6f093625154.jpg",
+    "static/media/my.jpg": "/fb-clone/static/media/my.a0b697433d1bf13a24d7.jpg",
+    "static/media/spacex.jpg": "/fb-clone/static/media/spacex.8009b4771146f6dd1ada.jpg",
+    "static/media/amazon.jpg": "/fb-clone/static/media/amazon.ba1b73f576dc555f773b.jpg",
+    "static/media/elon.jpg": "/fb-clone/static/media/elon.6afe5fffa04b20ac6727.jpg",
+    "static/media/ratan.jpg": "/fb-clone/static/media/ratan.8617475857df744bfb55.jpg",
+    "static/media/jeff.jpg": "/fb-clone/static/media/jeff.eb87e0befe428915784f.jpg",
+    "static/media/search.png": "/fb-clone/static/media/search.a27091ef0c45faf8a66e.png",
+    "index.html": "/fb-clone/index.html",
+    "main.0bb3fd01.css.map": "/fb-clone/static/css/main.0bb3fd01.css.map",
+    "main.d2420057.js.map": "/fb-clone/static/js/main.d2420057.js.map",
+    "787.7379419f.chunk.js.map": "/fb-clone/static/js/787.7379419f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bb3fd01.css",
+    "static/js/main.d2420057.js"
+  ]
+}
