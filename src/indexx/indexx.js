@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "./indexx.css";
 import story1 from "./media2/story1.jpg";
 import story2 from "./media2/story2.jpg";
@@ -22,6 +23,11 @@ import { FaRegCommentAlt } from "react-icons/fa";
 import { IoIosShareAlt } from "react-icons/io";
 
 export default function Indexx() {
+  let [like,setLike] =useState();
+
+  let fun=()=>{
+    setLike(1);
+  }
   const Story = [
     { id: 1, src: story1, alt: "rakesh" },
     { id: 2, src: story2, alt: "narendra" },
@@ -154,13 +160,13 @@ export default function Indexx() {
 
               <div className="post_bottom">
                 <div className="post_bottom_first">
-                  <BiLike className="bottom_icons" />
+                  {like}
                   <FaRegCommentAlt className="bottom_icons" />
                 </div>
                 <p className="indexx_line"></p>
                 <div className="post_bottom_second">
                   <div className="post_bottom_last">
-                    <BiLike /> <p>Like</p>
+                   <BiLike onClick={()=>{fun()} } key={Posts.id}  /><p>Like</p>
                   </div>
                   <div className="post_bottom_last">
                     <FaRegCommentAlt />
